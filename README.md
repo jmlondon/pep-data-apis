@@ -1,5 +1,3 @@
-# pep-data-apis
-
 ## Overview
 
 The AFSC Polar Ecosystems Program relies on Oracle APEX RESTful services for data access. This repository is a collection of markdown documents that document the API specifics.
