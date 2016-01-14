@@ -4,7 +4,7 @@ The AFSC Polar Ecosystems Program relies on Oracle APEX RESTful services for dat
 
 ## List of API Endpoints
 
-* PEP BOSS (Bering Okhotsk Seal Surveys)
+* [PEP BOSS (Bering Okhotsk Seal Surveys)](https://github.com/jmlondon/pep-data-apis/blob/master/pep-boss-api.md)
 
 ## URI template
 
