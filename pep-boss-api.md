@@ -5,7 +5,8 @@ The PEP BOSS project data API has 4 endpoints for accessing data
 1. All hotspots
 2. Hotspots identified as seals
 3. All hotspots for a specified survey flight
-4. A specific hotspot
+4. Summary Count of Seals by Camera 
+5. A specific hotspot
 
 ## All Hotspots
 
