@@ -22,7 +22,7 @@ This base URI is followed by a template of
 
 The PEP BOSS project data with a listing of all identified hotspots can be accessed via
 ```
-https://chum.afsc.noaa.gov:7104/apex/pep_boss/hotspots
+https://chum.afsc.noaa.gov:7104/apex/pep_boss/v1/hotspots
 ```
 
 ## API Standards
