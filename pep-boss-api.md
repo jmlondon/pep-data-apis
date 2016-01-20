@@ -10,7 +10,7 @@ The PEP BOSS project data API has 4 endpoints for accessing data
 
 ## All Hotspots
 
-[https://chum.afsc.noaa.gov:7104/apex/pep_boss/hotspots](https://chum.afsc.noaa.gov:7104/apex/pep_boss/hotspots)
+[https://chum.afsc.noaa.gov:7104/apex/pep_boss/v1/hotspots](https://chum.afsc.noaa.gov:7104/apex/pep_boss/v1/hotspots)
 
 The source SQL for this endpoint is
 
@@ -25,7 +25,7 @@ This is a large dataset and may take up to a few minutes to return the data
 
 ## Hotspots identified as seals
 
-[https://chum.afsc.noaa.gov:7104/apex/pep_boss/hotspots/seals](https://chum.afsc.noaa.gov:7104/apex/pep_boss/hotspots/seals)
+[https://chum.afsc.noaa.gov:7104/apex/pep_boss/v1/hotspots/seals](https://chum.afsc.noaa.gov:7104/apex/pep_boss/v1/hotspots/seals)
 
 The source SQL for this endpoint is
 
@@ -40,7 +40,7 @@ where hotspot_type = 'seal'
 ## All hotspots for a specified survey
 
 ```
-https://chum.afsc.noaa.gov:7104/apex/pep_boss/hotspots/{flightid}
+https://chum.afsc.noaa.gov:7104/apex/pep_boss/v1/hotspots/{flightid}
 ```
 
 The `{flightid}` segment if the URI should be replaced with the desired `flightid`
@@ -57,4 +57,4 @@ where flightid = :flightid
 
 The following will return all hotspots for flightid _12_AeroFl07_
 
-[https://chum.afsc.noaa.gov:7104/apex/pep_boss/hotspots/12_AeroFl07](https://chum.afsc.noaa.gov:7104/apex/pep_boss/hotspots/12_AeroFl07)
+[https://chum.afsc.noaa.gov:7104/apex/pep_boss/v1/hotspots/12_AeroFl07](https://chum.afsc.noaa.gov:7104/apex/pep_boss/v1/hotspots/12_AeroFl07)
